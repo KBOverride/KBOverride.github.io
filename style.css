@@ -10,6 +10,10 @@ body > section > article {
 	margin: 0px 500px 0px 500px;
 }
 
+.textContainer {
+	width: 1000px;
+}
+
 nav {
 	background-color: #142634;
 	/*border: 1px solid #dedede;
@@ -18,7 +22,7 @@ nav {
 	color: #888;
 	margin: 8px 500px 8px 500px;
 	overflow: hidden;
-	
+	width: 700px;
 }
 
 nav ul {
@@ -29,6 +33,7 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	list-style-type: none;
+	font-size: 20px;
 
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
@@ -46,7 +51,7 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a > .caret{
-	border-top: 4px solid #aaa;
+	border-top: 4px solid #BDC7C1;
 	border-right: 4px solid transparent;
 	border-left: 4px solid transparent;
 	content: "";
@@ -62,19 +67,19 @@ nav > ul > li > a > .caret{
 }
 
 nav > ul > li:hover {
-	background-color: rgb(40, 44, 47);
+	background-color: #BDC7C1;
 }
 
 nav > ul > li:hover > a {
-	color: rgb(255,255,255);
+	color: #142634;
 }
 
 nav > ul > li:hover > a > .caret {
-	border-top-color: rgb(255,255,255);
+	border-top-color: #142634;
 }
 
 nav > ul > li > div {
-	background-color: rgb(40,44,47);
+	background-color: #BDC7C1;
 	border-top: 0;
 	border-radius: 0 0 4px 4px;
 	box-shadow: 0 2px 2px -1px rgba(0,0,0,0.055);
@@ -104,14 +109,14 @@ nav > ul > li > div ul > li {
 }
 
 nav > ul > li > div ul > li > a {
-	color: #fff;
+	color: #142634;
 	display: block;
 	padding: 12px 24px;
 	text-decoration: none;
 }
 
 nav > ul > li > div ul > li:hover > a {
-	background-color: rgba(255,255,255,0.1);
+	background-color: #7E8889;
 }
 
 
