@@ -1,54 +1,45 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<meta name="viewport" content="initial-scale=1" charset="UTF-8"/>
-  <title>Kabir's Website</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
+<html lang="en">
+
+
+
+	<meta charset="UTF-8"/>
+	<title>Kabir's Website</title>
+ 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" type="text/css" href=style.css>
-	</head>
-	<!-- Logo -->
-	<div id="LogoHome">
-		<a href="index.html" title="Home"><img src="images/crash.png" alt="Home"></a>
-	</div>
 
-		<!-- Navigation Bar -->
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
+  <nav>
+  <div id="Logo"> Kabir Singh</div>
 
-				<li>
-					<a> Games <span class="caret"></span></a>
-						<div>
-							<ul>
-								<li><a href="RockBand.html">Rock Band 4</a></li>
-							</ul>
-						</div>
-				</li>
+  <label for="drop" class="toggle">Menu</label>
+  <input type="checkbox" id="drop" />
+  	<ul class="menu">
+  		<li><a href="index.html">Home</a></li>
+  		<li>
 
-				<li>
-					<a> Trips <span class="caret"></span></a>
-						<div>
-							<ul>
-								<li><a> Japan 2017 </a></li>
-							</ul>
-						</div>
-				</li>
+  			<label for="drop-1" class="toggle">Games ▾</label>
+  			<a href="#">Games</a>
+  			<input type="checkbox" id="drop-1"/>
+  			<ul>
+  				<li><a href="#"> Rock Band 4</a></li>
+  			</ul>
+  		</li>
 
-				<li><a href="about.html">About</a></li>
-			</ul>
-		</nav>
-	<!-- </header> -->
-
-	<body>
-		<section>
-			<article>
-				<div class="textContainer">
-				<hr color="#BDC7C1" width="100%">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas mi risus, id viverra nulla auctor eget. Quisque aliquam quam venenatis purus congue, at consequat libero vehicula. Morbi mattis mattis lectus, ac convallis mi accumsan eget. Nulla facilisi. In blandit lacus odio, vel ultrices ipsum cursus eu. Integer non dui lorem. Sed tempus, turpis sagittis faucibus eleifend, ligula neque sagittis nisl, vel faucibus nunc nulla ut metus. Sed augue leo, placerat ac mi nec, placerat faucibus ipsum. Integer sed euismod quam, vel rhoncus nibh. Quisque ut lacus vel magna pretium accumsan. Vestibulum vel ultricies nisl.</p>
-				<p> Morbi et eleifend urna, id tempus ipsum. Aliquam in facilisis enim, nec rutrum sapien. Ut ullamcorper suscipit elit nec pellentesque. Aliquam sit amet turpis maximus risus porttitor congue. Etiam nec bibendum enim. Nulla facilisi. Quisque maximus viverra congue. Duis gravida a sem id tincidunt. Sed dignissim, dolor et vulputate sodales, metus nulla pharetra nisl, id sagittis quam dolor sit amet sapien. Donec commodo maximus quam, eu volutpat quam dignissim accumsan. Vestibulum laoreet urna hendrerit lobortis elementum. Donec id libero nec mi sodales feugiat id id dui. Morbi euismod odio vel est viverra auctor. Donec sed arcu id lorem efficitur ullamcorper.</p>
-				</div>
-			</article>
-		</section>
-	</body>
+  		<li>
+  			<label for="drop-2" class="toggle">Trips ▾</label>
+  			<a href="#">Trips</a>
+  			<input type="checkbox" id="drop-2"/>
+  			<ul>
+  				<li><a href="#"> Japan 2017</a></li>
+  			</ul>
+  		</li>
+  		<li><a href="#">About</a></li>
+  		<li><a href="#">Contact</a></li>
+  	</ul>
+  </nav>
+  
+<video playsinline autoplay muted loop poster="images/particles.jpg" id="bgvid">
+	<source src="particles.webm" type="video/webm">
+  
 </html>
     
