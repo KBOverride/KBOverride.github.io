@@ -206,6 +206,59 @@ li > a:only-child:after {
 
 	.toggle {
 		display: block;
-		background-color: ;
+		background-color: #141311;
+		padding: 0 20px;
+		color: #fff;
+		font-size: 20px;
+		line-height: 60px;
+		text-decoration: none;
+		border: none;
+	}
+
+	.toggle: hover {
+		background-color: #BDC7C1;
+	}
+
+	[id^=drop] : checked + ul {
+		display: block;
+	}
+
+	nav ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul .toggle,
+		nav ul ul a {
+			background-color: #212121;
+		}
+
+	nav ul ul {
+		float: none;
+		position: static;
+		color: #ffffff;
+	}
+
+	nav ul ul li : hover > ul,
+	nav ul li : hover > ul {
+		display: none;
+	}
+
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+	}
+
+}
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display: block;
+		width: 94%;
 	}
 }
