@@ -185,7 +185,10 @@ li > a:only-child:after {
 
 /* For small screens (Media Queries) */
 
-@media all and (max-width : 768px) {
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
 
 	#Logo {
 		display: block;
@@ -230,8 +233,20 @@ li > a:only-child:after {
 
 	nav ul ul .toggle,
 		nav ul ul a {
-			background-color: #212121;
+			padding: 0 40px;
 		}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a: hover,
+		nav ul ul ul a {
+			background-color: #000000;
+		}
+
+	nav ul li ul li .toggle,
+		nav ul ul a { background-color: #212121; }
 
 	nav ul ul {
 		float: none;
@@ -255,10 +270,10 @@ li > a:only-child:after {
 
 }
 
-@media all and (max-width : 330px) {
+/*@media all and (max-width : 330px) {
 
 	nav ul li {
 		display: block;
 		width: 94%;
 	}
-}
+}*/
