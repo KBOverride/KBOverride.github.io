@@ -203,9 +203,9 @@ li > a:only-child:after {
 	}
 
 	.toggle + a,
-		.menu {
-			display: none;
-		}
+	 .menu {
+	 	display: none;
+	 }
 
 	.toggle {
 		display: block;
@@ -218,11 +218,11 @@ li > a:only-child:after {
 		border: none;
 	}
 
-	.toggle: hover {
+	.toggle:hover {
 		background-color: #BDC7C1;
 	}
 
-	[id^=drop] : checked + ul {
+	[id^=drop]:checked + ul {
 		display: block;
 	}
 
@@ -232,21 +232,21 @@ li > a:only-child:after {
 	}
 
 	nav ul ul .toggle,
-		nav ul ul a {
-			padding: 0 40px;
-		}
+	 nav ul ul a {
+	 	padding: 0 40px;
+	 }
 
 	nav ul ul ul a {
 		padding: 0 80px;
 	}
 
-	nav a: hover,
-		nav ul ul ul a {
-			background-color: #000000;
-		}
+	nav a:hover,
+	 nav ul ul ul a {
+	 	background-color: #000000;
+	 }
 
 	nav ul li ul li .toggle,
-		nav ul ul a { background-color: #212121; }
+	 nav ul ul a { background-color: #212121; }
 
 	nav ul ul {
 		float: none;
@@ -254,8 +254,8 @@ li > a:only-child:after {
 		color: #ffffff;
 	}
 
-	nav ul ul li : hover > ul,
-	nav ul li : hover > ul {
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
 		display: none;
 	}
 
