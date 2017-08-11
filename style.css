@@ -88,7 +88,9 @@ nav {
 	margin: 0;
 	padding: 0;
 	background-color: #141311;
-	position: relative;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 #Logo {
@@ -199,6 +201,9 @@ li > a:only-child:after {
 
 	nav {
 		margin: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
 	}
 
 	.toggle + a,
@@ -340,6 +345,14 @@ body.bRB {
 	font: 87.5%/1.4 'Roboto', sans-serif;
 }
 
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
 figure {
 	margin: 0;
 	padding: 0;
@@ -349,6 +362,7 @@ figcaption {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	padding: 0.5em 0 1em 0;
+	font-style: italic;
 }
 
 h1.title, h2, h3, h4, h5, h6 {
@@ -361,6 +375,7 @@ h1.title, h2, h3, h4, h5, h6 {
 h1.title {
 	font-size: 328.571%;
 	margin-bottom: 0.2em;
+	margin-top: 60px;
 }
 
 h1.title {
@@ -376,7 +391,8 @@ h3 {
 	font-size: 22px;
 	margin-bottom: 0.2em;
 	font-weight: bold;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 5px;
 }
 
 p.pRB {
@@ -395,7 +411,7 @@ p.pRB {
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%; /* 16:9 screen*/
 	padding-top: 25px;
 	height: 0;
 }
