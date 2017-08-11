@@ -201,9 +201,11 @@ li > a:only-child:after {
 
 	nav {
 		margin: 0;
+		/*If I want fixed menu on small screens
+
 		position: fixed;
 		top: 0;
-		width: 100%;
+		width: 100%;*/
 	}
 
 	.toggle + a,
@@ -224,6 +226,7 @@ li > a:only-child:after {
 
 	.toggle:hover {
 		background-color: #BDC7C1;
+		font-color: #000000;
 	}
 
 	[id^=drop]:checked + ul {
@@ -389,6 +392,14 @@ h2 {
 
 h3 {
 	font-size: 22px;
+	margin-bottom: 0.2em;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+h4 {
+	font-size: 18px;
 	margin-bottom: 0.2em;
 	font-weight: bold;
 	padding-top: 15px;
