@@ -58,12 +58,12 @@ video#bgvid {
 	letter-spacing: .3rem;
 }
 
-h3 {
+/*h3 {
 	font-size: 30px;
 	line-height: 34px;
 	text-align: center;
 	color: #fff;
-}
+}*/
 
 a {
 	color: #fff;
@@ -283,7 +283,15 @@ li > a:only-child:after {
 	grid-area: subhead;
 }
 
+.caption {
+	grid-area: caption;
+}
+
 .content {
+	grid-area: feature;
+}
+
+.feature-image {
 	grid-area: feature;
 }
 
@@ -295,7 +303,8 @@ li > a:only-child:after {
 		grid-template-rows: auto;
 		grid-template-areas: "nav"
 		"subhead"
-		"content";
+		"content"
+		"feature";
 	}
 }
 
@@ -315,7 +324,7 @@ li > a:only-child:after {
 @media only screen and (min-width: 980px) {
 	.wrapper {
 		display: grid;
-		grid-template-columns: 130px 40px auto 40px 130px;
+		grid-template-columns: 105px 40px auto 40px 105px;
 		grid-template-rows: auto;
 		grid-template-areas: ". . subhead . ."
 		"nav . feature . quote"
@@ -364,8 +373,10 @@ h2 {
 }
 
 h3 {
-	font-size: 150%
+	font-size: 22px;
 	margin-bottom: 0.2em;
+	font-weight: bold;
+	padding-bottom: 10px;
 }
 
 p.pRB {
